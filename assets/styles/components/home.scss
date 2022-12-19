@@ -1,0 +1,68 @@
+.dash-board {
+  ::v-deep {
+    .card-blog {
+      margin: 20px 0;
+
+      .blog-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        img {
+          margin-right: 10px;
+        }
+
+        div {
+          width: 80%;
+
+          h5 {
+            font-weight: 700;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+
+          p {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+        }
+
+        .card-btn {
+          button {
+            width: 100px;
+          }
+        }
+      }
+    }
+
+    .example-input-group {
+      margin: 20px 0;
+    }
+
+    .pagination {
+      margin: 10px auto 50px;
+    }
+  }
+
+  &__select {
+    &-sort {
+      display: flex;
+
+      ::v-deep {
+        .select {
+          label {
+            margin: 0;
+          }
+
+          .custom-select {
+            width: 150px;
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}

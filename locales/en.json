@@ -1,0 +1,35 @@
+{
+  "appName": "ADA",
+  "error": "Error",
+  "successful": "Successful",
+  "addBlog": "Add Blog",
+  "menu": {
+    "blog": "Blog",
+    "home": "Home",
+    "features": "Features",
+    "contact": "Contact",
+    "user": "Hiếu JB",
+    "profile": "Profile",
+    "signOut": "Sign Out"
+  },
+  "validate": {
+    "required": "{0} is a required field",
+    "minLength": "{0} must have at least {1} characters",
+    "maxLength": "{0} must not exceed {1} characters"
+  },
+  "btn": {
+    "details": "Details",
+    "edit": "Edit"
+  },
+  "select": {
+    "limit": "Limit",
+    "sortByDate": "Sort By Date"
+  },
+  "enterHereToSearch": "Enter here to search",
+  "search": "Search",
+  "emptySearch": "The data you are looking for is temporarily unavailable",
+  "title": "Title",
+  "content": "Content",
+  "uploadImage": "Upload Image",
+  "chooseFile": "Choose a file or drop it here..."
+}

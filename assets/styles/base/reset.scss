@@ -1,0 +1,13 @@
+@import "./variables";
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: unset !important;
+  box-sizing: border-box;
+  font-family: $font-family-default !important;
+}
+
+a {
+  text-decoration: none;
+}
